@@ -6,7 +6,8 @@ void setup() {
   foto = loadImage("HALLOWEEN.jpg");
 }
 
-void draw() {
+void draw() {  
+  stroke(1);
   background(255);
   image(foto, 50, 50);
   fill(10,20,800);
@@ -17,6 +18,7 @@ void draw() {
   fill(255,255,255);
   ellipse(50,149,100,50);
   ellipse(309,149,100,50);
+  noStroke();
   fill(0,0,0);
   circle(50,149,50);
   circle(309,149,50);
@@ -27,6 +29,7 @@ void draw() {
   fill(0,250,0);
   rect(10,100,80,10);
   rect(270,100,80,10);
+  stroke(25,0,255);
   fill(255,255,255,0);
   ellipse(179.5,100,100,50);
   fill(0,0,0,160);
