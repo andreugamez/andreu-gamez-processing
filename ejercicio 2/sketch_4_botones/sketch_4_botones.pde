@@ -96,7 +96,7 @@ void condicion4(){
 }
 }
 void master(){
-  if (h==1&&g==1&&i==1&&j==1){
+  if (h==1&&g==1&&i==1&&j==1&&mouseX<720&&mouseX>80&&mouseY<720&&mouseY>80){
     fill(0);
     textSize(k);
     text("Enhorabuena has tocado ya todos los botones",200,400);
